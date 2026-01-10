@@ -1,1 +1,0 @@
-# obsidain_notes_study
