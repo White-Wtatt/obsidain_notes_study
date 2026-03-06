@@ -85,3 +85,43 @@ print(f"{z:,}")
 
 ![](assets/week%200%20Functions,Variables/file-20260306165202690.png)
 
+## More on Floats
+
+对浮点数进行四舍五入：
+
+---
+
+让我们想象一下，如果我们想要将其向下取整。我们可以按如下方式修改我们的代码：
+
+```python
+# Get the user's input
+x = float(input("What's x? "))
+y = float(input("What's y? "))
+
+# Calculate the result and round
+z = round(x / y, 2)
+
+# Print the result
+print(z)
+```
+
+正如我们所预期，这将结果四舍五入到最接近的两个小数位。
+
+---
+我们也可以使用 `f-string` 来格式化输出，如下所示：
+
+```python
+# Get the user's input
+x = float(input("What's x? "))
+y = float(input("What's y? "))
+
+# Calculate the result
+z = x / y
+
+# Print the result
+print(f"{z:.2f}")
+```
+
+
+这个神秘的 `f-string` 代码与我们的先前四舍五入策略显示相同。
+
