@@ -15,4 +15,17 @@ print("Hello, " + name + "!")
 print("Hello,",name) # 可以加多个变量，逗号和空格效果相同
 ```
 
+```python
+print("Hello,")
+print(name)
 
+output:
+Hello,
+yang
+
+print("Hello, ",end = " ")
+print(name)
+
+output:
+Hello,yang
+```
