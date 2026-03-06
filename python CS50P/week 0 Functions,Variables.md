@@ -12,6 +12,7 @@ print("Hello, " + name + "!")
 ```
 
 ```python
-print("Hello, ",name) # 可以加多个变量
+print("Hello,",name) # 可以加多个变量，逗号和空格效果相同
 ```
+
 
