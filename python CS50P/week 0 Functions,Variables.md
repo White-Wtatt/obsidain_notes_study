@@ -83,3 +83,5 @@ z = round(x + y)
 print(f"{z:,}")
 ```
 
+![](assets/week%200%20Functions,Variables/file-20260306165202690.png)
+
