@@ -8,5 +8,10 @@ print(f"Hello, {name}!")
 ```
 
 ```python
-print("hello, " + name + "!")
+print("Hello, " + name + "!")
 ```
+
+```python
+print("Hello, ",name) # 可以加多个变量
+```
+
