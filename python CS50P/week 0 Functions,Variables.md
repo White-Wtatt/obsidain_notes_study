@@ -29,3 +29,7 @@ print(name)
 output:
 Hello,yang
 ```
+
+```python
+print("Hello,",name,sep = " ")
+```
