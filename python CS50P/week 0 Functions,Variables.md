@@ -30,6 +30,8 @@ output:
 Hello,yang
 ```
 
+`print()` 里的 `sep` 用来指定**多个输出项之间的分隔符**。
+
 ```python
 print("Hello,",name,sep = " ")
 ```
