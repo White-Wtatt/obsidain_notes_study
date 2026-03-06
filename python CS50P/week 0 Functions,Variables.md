@@ -8,5 +8,5 @@ print(f"Hello, {name}!")
 ```
 
 ```python
-print()
+print("hello, " + name + "!")
 ```
