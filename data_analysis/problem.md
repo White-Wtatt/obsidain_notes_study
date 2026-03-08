@@ -9,4 +9,7 @@
 
 `pip install zai-sdk`
 
+`client = ZhipuAiClient(api_key=os.getenv("ZAI_API_KEY"))`
 
+在终端中：(windows)
+`$env:ZAI_API_KEY="你的真实apikey"`
